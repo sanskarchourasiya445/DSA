@@ -13,10 +13,7 @@ public class pairSumBruteForce {
         list.add(6);
 
         int target = 5;
-
         pairSum(list,target);
-
-
     }
 
     public static void pairSum(ArrayList<Integer> list, int target){
