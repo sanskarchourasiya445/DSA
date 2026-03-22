@@ -7,7 +7,6 @@ public class SegregateEvenOdd {
             this.data = data;
         }
     }
-
     // Maintain two separate lists (even & odd) then join them
     public static Node segregate(Node head) {
         if (head == null || head.next == null) return head;
