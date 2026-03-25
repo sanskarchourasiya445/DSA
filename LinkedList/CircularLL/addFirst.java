@@ -22,7 +22,6 @@ public class CLLAddFirst {
             tail.next = head;     // tail → new head (maintain circle)
         }
     }
-
     public static void printList() {
         if (head == null) { System.out.println("List is empty!"); return; }
         Node temp = head;
