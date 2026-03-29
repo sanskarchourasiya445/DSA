@@ -24,3 +24,23 @@ public class AnagramCheck {
         System.out.println(s1 + " & " + s2 + " → Anagram: " + isAnagram);
     }
 }
+
+// import java.util.Arrays;
+
+// public class AnagramCheck {
+
+//     public static void main(String[] args) {
+//         String s1 = "listen";
+//         String s2 = "silent";
+
+//         char[] a = s1.toCharArray();
+//         char[] b = s2.toCharArray();
+
+//         Arrays.sort(a);
+//         Arrays.sort(b);
+
+//         boolean result = Arrays.equals(a, b);
+
+//         System.out.println(s1 + " & " + s2 + " → Anagram: " + result);
+//     }
+// }
