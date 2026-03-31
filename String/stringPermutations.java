@@ -71,9 +71,7 @@ public class StringPermutations {
         }
     }
 
-    /* ------------------------------------------------------------------ */
     /* Approach 3 : Iterative — insert each char at every position         */
-    /* ------------------------------------------------------------------ */
     public static List<String> permuteIterative(String s) {
         List<String> result = new ArrayList<>();
         result.add("");                            // start with empty string
@@ -90,9 +88,6 @@ public class StringPermutations {
         return result;
     }
 
-    /* ------------------------------------------------------------------ */
-    /* Main                                                                 */
-    /* ------------------------------------------------------------------ */
     public static void main(String[] args) {
         System.out.println("=== String Permutations ===\n");
 
