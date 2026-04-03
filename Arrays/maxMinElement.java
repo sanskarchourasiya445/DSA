@@ -1,5 +1,4 @@
 public class MaxMinElement {
-
     public static void findMaxMin(int[] arr) {
         int max = arr[0];
         int min = arr[0];
